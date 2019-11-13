@@ -4,7 +4,13 @@ Installation of Jenkins on GCP-VM
 ```sudo yum install -y wget```
 
 
-```bash git clone https://github.com/s3p02/jenkins-install-centos-7.git```
+```sudo yum install -y git```
+
+
+```git clone https://github.com/s3p02/jenkins-install-centos-7.git```
+
+
+```bash prep.sh```
 
 CHANGE PORT tp 38080
 ```sudo vim /etc/sysconfig/jenkins```
